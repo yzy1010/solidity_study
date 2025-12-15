@@ -1,0 +1,27 @@
+{
+  "name": "我的第一个NFT",
+  "description": "这是一个使用Solidity和OpenZeppelin创建的ERC721 NFT，展示了区块链技术的魅力。",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXxYQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzK",
+  "attributes": [
+    {
+      "trait_type": "类型",
+      "value": "数字艺术"
+    },
+    {
+      "trait_type": "稀有度",
+      "value": "普通"
+    },
+    {
+      "trait_type": "创作者",
+      "value": "Solidity学习者"
+    },
+    {
+      "trait_type": "创建日期",
+      "value": "2024-12-15"
+    }
+  ],
+  "external_url": "https://opensea.io/assets/mynft",
+  "animation_url": "",
+  "background_color": "000000"
+}
+

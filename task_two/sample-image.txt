@@ -1,0 +1,17 @@
+# NFT示例图片说明
+
+在实际部署中，你需要：
+
+1. 准备一张真实的图片文件（PNG、JPG等格式）
+2. 将图片上传到IPFS服务（如Pinata、Infura IPFS等）
+3. 获取图片的IPFS链接（格式如：https://gateway.pinata.cloud/ipfs/<hash>）
+4. 更新nft-metadata.json文件中的"image"字段为实际的图片IPFS链接
+5. 将更新后的JSON文件也上传到IPFS
+6. 获取JSON文件的IPFS链接，用于mintNFT函数的tokenURI参数
+
+示例IPFS图片链接格式：
+https://gateway.pinata.cloud/ipfs/QmXxYQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzK
+
+示例IPFS元数据链接格式：
+https://gateway.pinata.cloud/ipfs/QmYyZQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzKQZzL
+

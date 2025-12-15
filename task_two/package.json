@@ -5,12 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
+    "test:token": "npx hardhat test test_MyToken.js",
+    "test:nft": "npx hardhat test test-MyNFT.js",
     "deploy": "npx hardhat run deploy.js",
     "deploy:sepolia": "npx hardhat run deploy.js --network sepolia",
+    "deploy:nft": "npx hardhat run deploy-nft.js",
+    "deploy:nft:sepolia": "npx hardhat run deploy-nft.js --network sepolia",
+    "mint:nft": "npx hardhat run mint-nft.js",
+    "mint:nft:sepolia": "npx hardhat run mint-nft.js --network sepolia",
     "compile": "npx hardhat compile"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
     "hardhat": "^2.19.0"
   },
   "keywords": ["ethereum", "erc20", "solidity", "blockchain"],
