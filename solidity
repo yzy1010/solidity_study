@@ -1,0 +1,4 @@
+ReverseString reverseContract = new ReverseString();
+string memory result = reverseContract.reverse("abcde"); // 返回 "edcba"
+string memory testResult = reverseContract.testReverse(); // 返回 "edcba"
+
