@@ -1,0 +1,30 @@
+{
+  "name": "begging-contract",
+  "version": "1.0.0",
+  "description": "A Solidity begging contract for donation management",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run deploy.js",
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart-contract",
+    "donation",
+    "blockchain"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.0"
+  }
+}
+
